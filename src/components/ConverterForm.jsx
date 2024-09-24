@@ -8,7 +8,7 @@ function ConverterForm() {
   const [amount, setAmount] = useState(1)
   const [fromCurrency, setFromCurrency] = useState("USD")
   const [toCurrency, setToCurrency] = useState("BDT")
-  const [result, setResult] = useState("")
+  const [result, setResult] = useState("1 USD = 119 BDT")
   const [isLoading, setIsLoading] = useState(false)
 
   const handleSwapCurrencies = () => {
